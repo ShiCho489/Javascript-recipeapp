@@ -1,10 +1,11 @@
 **Recipes-Website**
 
-A pure Javascript Cooking app to search and find the ingredients and recipes of your favorite dishes. A project of leaning making application without using any framework.
+A pure Javascript Cooking app to search and find the ingredients and recipes of your favorite dishes. A self driven project to expand my learning.
 
 **Tools and technology**
-HTML
-CSS
-Javascript
+HTML,
+CSS,
+Javascript,
+jQuery
 
 
