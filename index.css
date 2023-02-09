@@ -32,7 +32,7 @@ input[type=text] {
    /* When the input field gets focus,
         change its width to 100% */
    input[type=text]:focus {
-     width: 90%;
+     width: 50%;
    }
     
  
@@ -41,6 +41,7 @@ input[type=text] {
     margin-left: 90px;
     text-align: left;
     color: cadetblue;
+    visibility: collapse;
     
  }
 
@@ -69,6 +70,21 @@ input[type=text] {
 
   p{
     color:aqua;
+  }
+
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+  }
+
+  #para{
+    color: black;
   }
   
 
