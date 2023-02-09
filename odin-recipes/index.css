@@ -48,12 +48,17 @@ input[type=text] {
     display: list-item;
  }
 
-@container (min-width: 400px) {
-    .card {
-      
-      
-    }
-  }
+.row::after{
+      content: "";
+      clear: both;
+      display: flex;
+}
+
+.column {
+    float: left;
+    width: 18%;
+    padding: 5px;
+}
 
   h2{
     color: aqua;
