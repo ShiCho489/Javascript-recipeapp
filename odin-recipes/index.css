@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+h1{
+   color: aqua;
+   border-bottom: 2px solid white;
+   padding: 20px 10px;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-weight: bold;
+}
+
