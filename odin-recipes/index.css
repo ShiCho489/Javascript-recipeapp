@@ -6,9 +6,64 @@ body{
 
 h1{
    color: aqua;
-   border-bottom: 2px solid white;
+   border-bottom: 1px solid white;
    padding: 20px 10px;
    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
    font-weight: bold;
 }
+
+#searchbar{
+     padding: 5px 50px 5px 50px;
+     text-align: center;
+     color: black;
+     font-weight: bold;
+     font-family: 'Courier New', Courier, monospace;
+     border-radius: 10px;
+     background-color: bisque;
+     
+}
+
+input[type=text] {
+    width: 20%;
+    -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 90%;
+   }
+    
+ 
+ #list{
+    font-size: 2rem;
+    margin-left: 90px;
+    text-align: left;
+    color: cadetblue;
+    
+ }
+
+ .recipes{
+    display: list-item;
+ }
+
+@container (min-width: 400px) {
+    .card {
+      
+      
+    }
+  }
+
+  h2{
+    color: aqua;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+
+  }
+
+  p{
+    color:aqua;
+  }
+  
 
