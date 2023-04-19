@@ -1,16 +1,29 @@
-function search_recipe() {
-    let input= document.getElementById('searchbar').value
-    input= input.toLowerCase();
-    let a = document.getElementsByClassName('recipes');
+let recipes= [
+    {
+        name: "Pizza", ingredients: ["cheese", "pepperoni", "mushrooms", "olives"],
+    },
+    {
+        name: "Lasagne", ingredients: ["spinach", "tomatoes", "onions", "carrots"],
+        
+    },
+    {
+        name: "Pasta", ingredients: ["spinach", "tomatoes", "onions", "carrots"],
+    },
+    {
+        name: "Buritto", ingredients: ["spinach", "tomatoes", "onions", "carrots"],
 
-    for (i = 0; i < a.length; i++) {
-        if (!a[i].innerHTML.toLowerCase().includes(input)) {
-            a[i].style.display='none';
-        }
-        else {
-            a[i].style.display='list-item';
-        }
+    },
+    {
+        name: "Burgers", ingredients: ["spinach", "tomatoes", "onions", "carrots"],
     }
-}
+];
 
+
+let search = () => {
+
+    
+let searchBar = document.getElementById("searchBar").value.toUpperCase();
+let recipesList = document.getElementById("recipesList");
+let recipes = document.querySelectorAll(".recipe");
+let rname = <document.getElementById("h2");
 

@@ -12,7 +12,7 @@ h1{
    font-weight: bold;
 }
 
-#searchbar{
+#searchBar{
      padding: 5px 50px 5px 50px;
      text-align: center;
      color: black;
@@ -34,20 +34,38 @@ input[type=text] {
    input[type=text]:focus {
      width: 50%;
    }
+
+   button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    content: bold;
+    border: 2px solid red;
+
+   }
     
  
- #list{
+ #recipeslist{
     font-size: 2rem;
     margin-left: 90px;
     text-align: left;
-    color: cadetblue;
-    visibility: collapse;
+    visibility: visible;
     
  }
 
  .recipes{
     display: list-item;
+    color: beige;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    visibility: visible;
+    
  }
+   
+  }
 
 .row::after{
       content: "";
